@@ -1,0 +1,16 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <h1 class="text-center display-2 fw-bold mb-4">GESTIÓN DE TAREAS</h1>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control form-control-lg rounded-pill shadow-sm" [(ngModel)]="taskName" placeholder="Agregar nueva tarea" aria-label="Nombre de la tarea">
+        <button class="btn btn-info rounded-pill px-4 shadow-sm" (click)="addTask()">Añadir</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center mt-3">
+  <div class="mb-3 w-50">
+    <label for="filterSelect" class="form-label font-italic fw-bold">Filtrar tareas:</label>
+    <select id="filterSelect" class="form-select" (change)="onSelectFilter($event)">
+      <option value="all">Todas</option>
+      <option value="completed">Completadas</option>
+      <option value="uncompleted">No completadas</option>
+    </select>
+  </div>
+</div>
